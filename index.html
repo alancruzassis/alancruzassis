@@ -5,13 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family='open sans':wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    
+
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        textarea:focus, input:focus{
+            outline: none;
+        }
+        body{
+            height:100%;
+            width: 100%;
+            background-color: #fefefe;
+            display: flex;
+            flex-direction: column;
+            min-height:100vh;
+            font-family: 'open sans', sans-serif;
+        }
+
+        html{
+            height:10%;
+            width: 100%;
+        }
+
+        header{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            color: #951ABE;
+            padding: 6px 12px 6px 12px;
+            box-shadow: 0px 1px 2px 0px rgba(142, 142, 142, 0.75);
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        h1{
+            font-family: 'open sans', Candara, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        main{
+            padding-left: 4%;
+            padding-right: 3%;
+        }
+        .formacao{
+            margin-bottom: 15px;
+        }
+        h3{
+            font-family: 'open sans', Candara, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-family: 'open sans', Candara, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .i{
+            font-style: italic;
+        }
+
+        .cssClear{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+    </style>
+
 </head>
 <body>
     <header>
-        <h1>Trabalhando nisso...</h1>
+        <h1>Alan da Cruz Assis da Silva</h1>
     </header>
     <main>
-
+        <div class="formacao">
+            <h3>Formação acadêmica</h3>
+            <p>Estudante de Nutrição (UNEB)</p>
+        </div>
+        <div class="projetos">
+            <div>
+                <h3>Projetos</h3>
+                <h4>Neonatologia</h4>
+                <ul>
+                    <li><a href="https://neodate.uneb.br" target="_blank">Neodate</a></li>
+                    <ul>
+                        <p class="i">Correção da Idade Gestacional de pré-termos</p>
+                    </ul>
+                </ul>
+                <ul>
+                    <li><a href="https://alancruzassis.github.io/vgp" target="_blank">VGP</a></li>
+                    <ul>
+                        <p class="i">Velocidade de Ganho de Peso</p>
+                    </ul>
+                </ul>    
+                    <h4>Cálculo de Medicamentos</h4>
+                    <ul>
+                        <li><a href="https://alancruzassis.github.io/transformsolucoes" target="_blank">Transform Soluções</a></li>
+                        <ul>
+                            <p class="i">Modificação da concentração de medicamentos</p>
+                        </ul>
+                    </ul>
+                <h4>Terapia Nutricional</h4>
+                <ul>
+                    <li><a href="https://alancruzassis.github.io/get" target="_blank">GET</a></li>
+                    <ul>
+                        <p class="i">Gasto Energético Basal e Total de Adultos e Idosos não críticos</p>
+                    </ul>
+                </ul>
+                <ul>
+                    <li><a href="https://alancruzassis.github.io/volumeinfundido" target="_blank">Volume Infundido / Prescrito</a></li>
+                    <ul>
+                        <p class="i">Calculadora do percentual de volume infundido</p>
+                    </ul>
+                </ul>
+            
+            </div>
+        </div>
     </main>
     <footer>
 
